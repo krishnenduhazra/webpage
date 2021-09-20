@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding:0;}
+body{
+	background-image:url("vlcsnap-error608.png");
+	background-size:cover;}
+#nav{
+	background-color:rgba(100,100,100);
+	width:100%;
+	height:55px;
+	position:fixed;}
+#nav p1{
+	float:left;
+	line-height:18px;
+	padding:20px 50px;}
+a{
+	text-decoration:none;}
+li{
+	list-style:none;}
+#ul1 li{
+	position:relative;}
+#nav ul li{
+	float:left;}
+#ul1 li a{
+	display:block;
+	padding:5px 20px;
+	line-height:15px;
+	background-color:#1cd;
+	margin:15px 5px 15px 6px;
+	}
+#ul11,#ul12,#ul13{
+	display:none;
+	position:absolute;
+	background-color:rgba(100,100,100);
+	width:110px;
+	padding:0;}
+
+#li1:hover #ul11{
+	display:block;}
+#li2:hover #ul12{
+	display:block;}
+#li3:hover #ul13{
+	display:block;}
+#sidebar{
+	background-color:rgba(180,180,180,0.9);
+	width:200px;
+	height:1300px;
+	position:absolute;
+	top:55px;
+	z-index:-1;}
+#main{
+	background-color:rgba(150,150,150,0.5);
+	width:900px;
+	height:1300px;
+	position:absolute;
+	top:55px;
+	left:220px;
+	z-index:-1;}
+#ad{
+	width:200px;
+	height:500px;
+	position:fixed;
+	top:95px;
+	right:0px;
+	z-index:1;}
+#ad2{
+	width:600px;
+	height:150px;
+	position:fixed;
+	bottom:0px;
+	left:300px;
+	z-index:1;}
+
+#ad img{
+	width:100%;
+	height:100%;}
+#ad2 img{
+	width:100%;
+	height:100%;}
